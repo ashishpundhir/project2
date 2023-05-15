@@ -1,4 +1,5 @@
 Readme file for Terribly Tiny Tales Application
+link:- https://gorgeous-lollipop-28a643.netlify.app/
 This project is a web application that fetches a text file from an API and generates a bar chart of the 20 most frequently used words in the text file using the React library and ApexCharts component.
 
 Components
