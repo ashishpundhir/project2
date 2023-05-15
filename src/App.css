@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-container button{
+  margin-left: 45%;
+  margin-top: 23%;
+}
+.graph {
+  margin-top: 15%;
+}
+.button {
+  padding: 15px 20px;
+  font-size: 1.9em;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@keyframes scale-down {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.button:hover {
+  animation: scale-down 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@media screen and (max-width:426px){
+  .button-container button{
+    margin-left: 34%;
+    margin-top: 70%;
+  }
+}
+@media screen and (max-width:321px){
+  .button-container button{
+    margin-left: 30%;
+    margin-top: 85%;
+  }
+}
+.pageNotFound {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  height: 100vh;
+  margin-top: 22%;
+}
+.pageNotFound a {
+  color: rgb(196, 87, 87);
+  margin-top: -1rem;
+}
+@media screen and (max-width:426px) {
+  .loader {
+    margin-top: 30rem;
+  }
+}
